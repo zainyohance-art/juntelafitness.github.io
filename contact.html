@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juntela's Fitness GYM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #1c1c1c; /*  background */
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    }
+
+    /* Logo style */
+    .brand-logo img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #00ff66; /* neon green outline */
+    }
+
+    /* Menu style */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 10px; /* spacing between menu items */
+      margin: 0.5;
+      padding: 0.5;
+    }
+
+    nav ul li a {
+      color:green;
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: bold;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    /* Neon hover underline */
+    nav ul li a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      left: 0;
+      bottom: -5px;
+      background-color: #00ff66;
+      transition: width 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00ff66;
+    }
+
+    nav ul li a:hover::after {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="brand-logo">
+      <img src="logo.jpeg" alt="Gym Logo">
+    </div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="samplewebpage.html">Home</a></li> 
+    </ul>
+  </nav>
+
+  <section class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Have questions or want to join our gym? Reach out to us using the form below or through our contact details.</p>
+
+  <form class="contact-form">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p><strong>Phone:</strong> +63 995 006 5046</p>
+    <p><strong>Email:</strong> Juntela'sGYM@gmail.com</p>
+    <p><strong>Location:</strong> Antipolo City, Rizal, Philippines</p>
+  </div>
+</section>
+
+<style>
+  .contact-section {
+    background: #e8f5e9; /* light green background */
+    padding: 40px;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .contact-section h2 {
+    color: #2e7d32;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .contact-section p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  .contact-form label {
+    font-weight: bold;
+    color: #2e7d32;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .contact-form button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+  }
+
+  .contact-form button:hover {
+    background-color: #1b5e20;
+  }
+
+  .contact-info {
+    text-align: center;
+    color: #333;
+  }
+
+  .

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juntela's Fitness GYM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4fdf4; /* light green background */
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32; /* dark green */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .about-section {
+      background: white;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section h2 {
+      color: #2e7d32; /* green */
+      margin-bottom: 15px;
+      font-size: 1.8em;
+    }
+
+    .about-section p {
+      line-height: 1.6;
+      font-size: 1.05em;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #1c1c1c; /*  background */
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    }
+
+    /* Logo style */
+    .brand-logo img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #00ff66; /* neon green outline */
+    }
+
+    /* Menu style */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 10px; /* spacing between menu items */
+      margin: 0.5;
+      padding: 0.5;
+    }
+
+    nav ul li a {
+      color:green;
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: bold;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    /* Neon hover underline */
+    nav ul li a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      left: 0;
+      bottom: -5px;
+      background-color: #00ff66;
+      transition: width 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00ff66;
+    }
+
+    nav ul li a:hover::after {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="brand-logo">
+      <img src="logo.jpeg" alt="Gym Logo">
+    </div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="samplewebpage.html">Home</a></li> 
+    </ul>
+  </nav>
+
+  
+  <section class="about-section">
+    <h2>About Us:</h2>
+    <p>
+      At our gym, we are committed
+      to helping you achieve your
+      fitness goals both inside
+      and outside the workout
+      floor.<p>We provide top
+      quality equipment, a
+      motivating environment, and
+      expert support to keep you
+      on track.<p>To complement
+      your training, we also offer
+      a selection of protein and
+      whey products designed to
+      boost recovery, build
+      strength, and fuel your body
+      with the nutrition it need
+      .<p> Here, you dont just
+      train, you train smarter
+      with the right balance of
+      exercise and nutrition.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Juntela's Fitness GYM | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
